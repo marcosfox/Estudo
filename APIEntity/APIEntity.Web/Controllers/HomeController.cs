@@ -10,7 +10,7 @@ namespace APIEntity.Web.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "API";
+            ViewBag.Title = "API Entity";
 
             return View();
         }
