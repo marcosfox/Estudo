@@ -14,5 +14,16 @@ namespace APIEntity.Web.Controllers
 
             return View();
         }
+
+        public ActionResult NovaPagina()
+        {
+            ViewBag.nome = "Gustavo";
+            ViewBag.telefone = "252525252";
+            ViewBag.email = "huauhdh@gmail";
+            ViewBag.NomeMae = "Thaiz";
+
+
+            return View();
+        }
     }
 }
